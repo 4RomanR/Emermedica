@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="afiliaciones-emermedica.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+
+    <title>Afiliación Emermédica</title>
+</head>
+<body>
+    <header>
+        <nav class="h_logo">
+            <img src="img/logo-emermedica1.png" alt="Ejecutivo Comercial Victor Mejías" href="">
+            
+        </nav>
+        <nav class="h_navegadores">
+            <a href="#">Nosotros</a>
+            <a class="h_nav_ini" href="#">Inicio</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <nav class="h_redes">
+            <a href="https://wa.link/6vul80" target="_blank" rel="noopener">
+                <img src="./img/whatsapp1.png" alt="Logo Whatsaap Emermedica"></a>
+            <a href="https://www.facebook.com/Afiliate-en-Linea-101517138232166/"><img src="img/face1.png" alt="facebook"></a>
+        </nav>
+        
+    </header>
+    <main>
+        <section>   
+<!-- BANNER -->
+            <div class="banner1">
+                <img src="./img/Publicidad-Portada.gif" alt="Afilia a tu familia">
+            </div> 
+            <div class="banner2">
+                <img src="./img/Publicidad-Portada2.gif" alt="Afilia a tu familia">
+            </div>
+            <p class="sec_title">Planes Emermédica</p>
+            <div class="sec_planes">
+                <article>
+                    <div>
+                        <h4>Plan Familiar</h4>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Asistencia médica domiciliaria</li>
+                            <li>Traslados en ambulancia</li>
+                            <li>Teleconsulta</li>
+                            <li>Sin pago de bonos o copagos</li>
+                            <li>Aceptamos preexistencias.</li>
+                            <li>Sin límite de edad de ingreso</li>
+                            <li>Acceso a especialistas y laboratorio</li>
+                            <li>Controles pediátricos</li>
+                            <li>Sin cláusulas de permanencia</li>
+                            <li>Y más...</li>
+                        </ul>
+                    </div>
+                </article>
+                <picture>
+                    <div class="sec_fam">
+                        <img src="./img/familia.png" alt="Plan Familiar">
+                    </div>
+                </picture>
+            </div>            
+        </section>
+
+        <!-- <form action="mailto:victor.emermedica@gmail.com"> -->
+
+        <form action="mailto:4rprogramming@gmail.com" method="POST">
+            <div>
+                <input type="nombre" placeholder="Nombre y Apellido" required="">
+                <input type="email" placeholder="Email" name="email" id="email" required="">
+                <input type="number" placeholder="Número de Contacto" name="number" id="number" required="" pattern="[0-9]+">
+            </div>
+            <div class="f_terms">
+                
+                <a href="TerminosEmermedica.html">Acepto términos y condiciones.</a>
+                <input type="checkbox" data-requiered="1" name="Terminos y Condiciones" id="Terminos y Condiciones" required="">
+                <p>Formulario válido únicamente para afiliaciones</p>
+            </div>
+            <div>
+                <input class="in_enviar" type="submit" value="enviar">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <div class="f_img">
+            <div>
+                <img src="img/logo-emermedica2.png" alt="Emermédica">
+            </div>
+            <div>
+                <img class="axa" src="img/axa.png" alt="Axa Colpatria">
+            </div>        
+            <div>
+                <img src="img/vigilado.png" alt="Vigilado por Supersalud">
+            </div>
+            
+        </div>
+        
+        <div class="autor">
+            <p>Emermédica S.A.</p>
+            <p>© 2022 4RomanR Todos Los Derechos Reservados</p>
+        </div>
+        
+    </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
