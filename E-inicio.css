@@ -16,6 +16,13 @@ header{
     justify-content: space-between;
     padding: 0 1rem;
 }
+.h_phone{
+    color:#0f396c;
+}
+.h_phone{
+    text-decoration: none;
+    color:#0f396c;
+}
 /* HEADER */
 .h_logo img{
     width: 20rem;
@@ -59,7 +66,7 @@ header{
 .sec_title {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color:#0042aa;
+    background-color:#0f396c;
     text-shadow: 2px 2px  black;
     font-size: 32px;
     display: flex;
@@ -74,17 +81,22 @@ header{
     align-content: center;
 }
 .sec_fam img{
-    width: 30rem;
+    width: 40rem;
 }
 article{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 24px;
+
+    font-size: 1.5rem;
 }
+/*
+----------------------------------INFO PENDIENTE PARA ACTUALIZAR
 article h4{
     font-size: 2rem;
     text-align: start;
-}
+} */
 /* TERMINOS Y CONDICIONES */
 .s_terms{
     padding: 5rem 5rem ;
@@ -96,28 +108,40 @@ form{
     align-items: center;
     background-image: linear-gradient(to top, #081267 0%, rgb(255, 255, 255) 100%);
     padding: 5rem;
+    font-size: 1rem;
+}
+.f_inputs, .f_terms{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 form div input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 0.5rem;
     margin: 1rem;
     border-radius: 20px;
     border-color: rgba(245, 245, 220, 0);
     box-shadow: 5px 5px #0042aa;
+    
 }
 .in_enviar{
     padding: 0.5rem 5rem;
     box-shadow: 5px 5px #0042aa;
 }
-.f_terms{
+/* .f_terms{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.f_terms p{
-    font-size: 11px;
+} */
+form p{
+    font-size: 0.8rem;
 }
 
 /* FOOTER */
@@ -135,7 +159,7 @@ footer{
     width: 100%;
 }
 footer div img{
-    width: 10rem;
+    width: 20rem;
     margin: 0 2rem;
 }
 
@@ -144,7 +168,7 @@ footer div img{
     width: 100%;
     color: lightslategray;
     text-align: center;
-    font-size: 12px;
+    font-size: 1rem;
     padding: 2rem;
 }
 
