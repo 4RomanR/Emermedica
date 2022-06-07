@@ -41,7 +41,7 @@
         <section>   
 <!-- BANNER -->
             <div class="banner1">
-                <img src="./img/e-1.gif" alt="Afilia a tu familia">
+                <img src="./img/e-1.gif" alt="Afiliacion emermedica">
             </div> 
             <div class="banner2">
                 <img src="./img/e-2.gif" alt="Afilia a tu familia">
@@ -78,22 +78,28 @@
 
         <!-- <form action="mailto:victor.emermedica@gmail.com"> -->
 
-        <form action="mailto:----@gmail.com" method="POST">
-            <div class="f_inputs">
-                <input type="nombre" placeholder="Nombre y Apellido" required="">
-                <input type="email" placeholder="Email" name="email" id="email" required="">
-                <input type="number" placeholder="Número de Contacto" name="number" id="number" required="" pattern="[0-9]+">
-            </div>
-            <div class="f_terms">
-                <a href="E-Terminos.html">Acepto términos y condiciones.</a>
-                <input type="checkbox" data-requiered="1" name="Terminos y Condiciones" id="Terminos y Condiciones" required="">
-            </div>
-            <p>Formulario válido únicamente para afiliaciones</p>
-            <div>
-                <input class="in_enviar" type="submit" value="Enviar">
-            </div>
-        </form>
-
+            <form action="https://formsubmit.co/4rprogramming@gmail.com" method="POST">
+                    <div class="f_inputs">
+                        <input type="hidden" name="_subject" value="¡Nuevo cliente!">
+                        <input type="text" name="name" required placeholder="Nombre y Apellido">
+                        <input type="email" name="email" required placeholder="email">
+                        <input type="number" name="number" required placeholder="Número de Contacto">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                    </div>
+                    <div class="f_terms">
+                        <a href="E-Terminos.html">Acepto términos y condiciones.</a>
+                        <input type="checkbox" data-requiered="1" name="Terminos y Condiciones" id="Terminos y Condiciones" required="">
+                    </div>
+                        <p>Formulario válido únicamente para afiliaciones</p>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                
+                
+            </form>            
+           
     </main>
     <hr>
     <footer>
@@ -117,3 +123,4 @@
 
 </body>
 </html>
+

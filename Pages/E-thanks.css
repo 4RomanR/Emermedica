@@ -49,16 +49,11 @@ hr{
     text-decoration: none;
     color: rgb(73, 73, 73);
 }
-.h_navegadores .h_nav_ini{
-    background-color: rgba(199, 199, 199, 0.37);
-    border-radius: 2px;
-}
+
 .h_navegadores a:hover{
     background-color: rgba(20, 19, 102, 0.37);
     border-radius: 2px;
-
 }
-
 .h_redes{
     padding: 0 20px;
 }
@@ -106,8 +101,7 @@ article{
 }
 .h_phone3{
     text-decoration: none;
-    color:rgb(210, 0, 0);
-    
+    color:rgb(210, 0, 0);   
 }
 /*-------------------------------------------------------------*/
 .t_thanks{
@@ -121,16 +115,7 @@ article{
     padding: 4rem 0 0 0;
 }
 /*-------------------------------------------------------------*/
-/*
-----------------------------------INFO PENDIENTE PARA ACTUALIZAR
-article h4{
-    font-size: 2rem;
-    text-align: start;
-} */
-/* TERMINOS Y CONDICIONES */
-.s_terms{
-    padding: 5rem 5rem ;
-}
+
 /* FOOTER */
 form{
     display: flex;
@@ -172,14 +157,6 @@ form div input{
 } */
 form p{
     font-size: 0.8rem;
-}
-button{
-    padding: 0.5rem 5rem;
-    margin: 0.5rem;
-    box-shadow: 5px 5px #0042aa;
-    border-radius: 20px;
-    border-color: rgba(245, 245, 220, 0);
-
 }
 
 /* FOOTER */
