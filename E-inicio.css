@@ -81,7 +81,7 @@ hr{
     color: rgb(255, 255, 255);
     background-color:#0f396c;
     text-shadow: 2px 2px  black;
-    font-size: 32px;
+    font-size: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,9 +92,11 @@ hr{
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    padding: 0 0 0 5rem ;
 }
 .sec_fam img{
     width: 45rem;
+    
 }
 article{
     display: flex;
@@ -102,7 +104,7 @@ article{
     align-items: flex-start;
     padding: 24px;
 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .h_phone3{
     text-decoration: none;
@@ -139,6 +141,10 @@ form{
     background-image: linear-gradient(to top, #081267 0%, rgb(255, 255, 255) 100%);
     padding: 5rem;
     font-size: 1rem;
+}
+form h2{
+    padding: 2rem;
+    color: rgb(49, 49, 49);
 }
 .f_inputs, .f_terms{
     display: flex;
