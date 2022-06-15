@@ -14,7 +14,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 .h_left{
     display:flex;
@@ -58,10 +58,17 @@ hr{
     padding: 0 20px;
 }
 .h_redes img{
-    width: 3rem;
+    width: 2.5rem;
 }
 .h_redes a{
     padding: 0 1rem;
+}
+.h_phone1{
+    font-size: 15px;
+}
+.h_phone1 a{
+    text-decoration: none;
+    color: #0042aa;
 }
 /* BANNER */
 .banner1 img{
@@ -103,7 +110,6 @@ article{
     text-decoration: none;
     color:rgb(210, 0, 0);   
 }
-/*-------------------------------------------------------------*/
 .t_thanks{
     display: grid;
     place-content: center;
@@ -114,51 +120,15 @@ article{
 .t_ini{
     padding: 4rem 0 0 0;
 }
-/*-------------------------------------------------------------*/
-
-/* FOOTER */
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: linear-gradient(to top, #081267 0%, rgb(255, 255, 255) 100%);
-    padding: 5rem;
-    font-size: 1rem;
+/* WHATSAPP FIJO */
+.wa_fixed{
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
 }
-.f_inputs, .f_terms{
-    display: flex;
-    flex-direction: row;
-    padding: auto;
-    justify-content: center;
-    align-items: center;
-    
-    
+.wa_fixed img{
+    width: 50px;
 }
-form div input{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: 20px;
-    border-color: rgba(245, 245, 220, 0);
-    box-shadow: 5px 5px #0042aa;
-    
-}
-.in_enviar{
-    padding: 0.5rem 5rem;
-    box-shadow: 5px 5px #0042aa;
-}
-/* .f_terms{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-form p{
-    font-size: 0.8rem;
-}
-
 /* FOOTER */
 
 footer{
@@ -205,15 +175,43 @@ footer div img{
         flex-direction: column;
         align-items: center;
     }
+    picture div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .f_inputs{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width:480px){
     .h_logo{
         display: flex;
         justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .h_navegadores{
+        display: none;
     }
     .h_logo img{
-        width: 50%;
+        width: 80%;
+        padding: 0;
+        margin: 0;
     } 
+    .h_redes img{
+        width: 3rem;
+    }
+    .h_phone1{
+        font-size: large;
+    }
+    .sec_title{
+        padding: 0;
+        margin: 0;
+        font-size: 2rem;
+    }
     .banner2 img, .sec_fam img{
         display: inline;
         width: 100%;
@@ -221,16 +219,42 @@ footer div img{
     .banner1 img{
         display: none;
     }
+    .sec_fam img{
+        display: none;
+    };
+    form{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .link__contact, .f_terms, .f_terms img{
+        padding: 0;
+        margin: 0;
+
+    }
+    .f_terms{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .f_terms{
         text-align: center;
     }
-    /* .banner2 img{
-        display: inline;
-        width: 100%;
+    .f_inputs{
+    display: flex;
+    flex-direction: column;
     }
-    .sec_fam img{
-        display: inline;
-        width: 100%;
-    } */
+    .f_img{
+        flex-direction: row;
+        
+    }
+    .f_img img{
+        width: 10rem;
+        padding: 0;
+        margin: 0;
+    }
+    .wa_fixed img{
+        display: none;
+    }
 
 }
