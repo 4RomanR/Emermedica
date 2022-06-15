@@ -120,15 +120,7 @@ article{
 .t_ini{
     padding: 4rem 0 0 0;
 }
-/* WHATSAPP FIJO */
-.wa_fixed{
-    position: fixed;
-    right: 5%;
-    bottom: 50px;
-}
-.wa_fixed img{
-    width: 50px;
-}
+
 /* FOOTER */
 
 footer{
@@ -252,9 +244,6 @@ footer div img{
         width: 10rem;
         padding: 0;
         margin: 0;
-    }
-    .wa_fixed img{
-        display: none;
     }
 
 }
