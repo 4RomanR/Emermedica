@@ -83,15 +83,17 @@
 
         <!-- <form action="mailto:victor.emermedica@gmail.com"> -->
 
-            <form action="https://formsubmit.co/victor.emermedica@gmail.com" method="POST">
+            <form action="conexion.php" method="post">
                
+                
+                    </div>               
                 <h2 id="Contacto">¡Afíliate Aquí!</h2>
                 <!-- <H3>Comunicarse Conmigo</H3> -->
                     <div class="f_inputs">
                         <input type="hidden" name="_subject" value="¡Nuevo cliente!">
-                        <input type="text" name="name" required placeholder="Nombre y Apellido">
+                        <input type="text" name="nombre" required placeholder="Nombre y Apellido">
                         <input type="email" name="email" required placeholder="email">
-                        <input type="number" name="number" required placeholder="Número de Contacto">
+                        <input type="number" name="numero" required placeholder="Número de Contacto">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thanks.html">
@@ -102,7 +104,7 @@
                         <input class="f_terms_input" type="checkbox" data-requiered="1" name="Terminos y Condiciones" id="Terminos y Condiciones" required="">
                     </div>
                     <div>
-                        <button type="submit">Enviar</button>
+                        <button type="submit" name="enviar">Enviar</button>
                     </div>
                     <!-- <h3><a class="h_phone3" href="https://wa.link/4wtt65" target="_blank" rel="noopener"><strong>Yo me comunico </strong></a></h3> -->
                     <h4><strong>+57 321 2482709</strong></h4>
