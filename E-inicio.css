@@ -69,6 +69,9 @@ hr{
     text-decoration: none;
     color: #0042aa;
 }
+.h_afiliacion a, .h_afiliacion img{
+    display: none;
+}
 /* BANNER */
 .banner1 img{
     width: 100%;
@@ -106,11 +109,9 @@ article{
     font-size: 1.3rem;
 }
 .art-list {
-
     padding: 0 0 0 1rem;
 }
 .art-list li{
-    
     margin-top: 10px;
 }
 
@@ -300,7 +301,29 @@ footer div img{
         padding: 0;
         margin: 0;
     }
-    
+    .h_left{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top:2rem;
+    }
+    .h_afiliacion{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .h_afiliacion a{
+        display: flex;
+        text-decoration: none;
+        font-size: xx-large;
+        color: #0f396c;
+        padding: 0 0 1rem 0;
+    }
+    .h_afiliacion img{
+        display: block;
+        position: absolute;
+        width: 3rem;
+        left: 20%;
+    }
     .h_navegadores{
         display: none;
     }
@@ -329,7 +352,10 @@ footer div img{
     }
     .sec_fam img{
         display: none;
-    };
+    }
+    .art-list li{
+        font-size: medium;
+    }
     form{
         box-sizing: border-box;
         padding: 0;
@@ -345,6 +371,11 @@ footer div img{
         padding: 0;
         margin: 0;
 
+    }
+    form h2{
+        padding: 1rem 0;
+        letter-spacing: 0;
+        font-size: x-large;
     }
     .f_terms{
         flex-direction: column;
