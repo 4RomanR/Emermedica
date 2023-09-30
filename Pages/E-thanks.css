@@ -141,6 +141,12 @@ footer div img{
     
 }
 
+footer a{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(255, 179, 0);
+}
+
 .autor{
     background-color: rgb(0, 0, 0);
     width: 100%;
